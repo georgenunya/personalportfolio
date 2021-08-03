@@ -58,7 +58,7 @@ export default function ProjectsSection() {
 return (
 <ProjectSectionStyle>
     <div className="container">
-    <SectionTitle heading="Projects" subheading="Some of my recent work" />
+    <SectionTitle heading="Projects" subheading="Some of my recent" />
     <div className="projects__allItems">
         <Swiper
             spaceBetween={30}

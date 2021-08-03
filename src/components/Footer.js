@@ -62,9 +62,7 @@ export default function Footer() {
         <div className="footer__col1">
           <h1 className="footer__col1__title">George Charles</h1>
           <PText>
-            A freelance web designer and developer from Chittagong, Bangladesh.
-            I always make websites that have unique designs and also has a good
-            performance rate.
+            A super friendly guy who puts values and behaviours first before anything. Proud supporter of the MIND charity. Im currently working for Nunya Group but open to new projects.
           </PText>
         </div>
         <div className="footer__col2">
@@ -114,23 +112,15 @@ export default function Footer() {
         </div>
         <div className="footer__col4">
           <FooterCol
-            heading="social Links"
+            heading="Social Links"
             links={[
               {
-                title: 'WhatsApp',
-                path: 'http://facebook.com',
-              },
-              {
-                title: 'Twitter',
-                path: 'http://twitter.com',
-              },
-              {
                 title: 'Instagram',
-                path: 'http://instagram.com',
+                path: 'https://www.instagram.com/georgecharles__/',
               },
               {
                 title: 'LinkedIn',
-                path: 'http://instagram.com',
+                path: 'https://www.linkedin.com/in/george-charles-04874696',
               },
             ]}
           />

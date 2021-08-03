@@ -92,8 +92,7 @@ export default function About() {
                   <br />
                   My vision is to make the world a better place. Now almost
                   everything is becoming better than ever. It is time for us to
-                  create more good stuff that helps the world to become a better
-                  place.
+                  innovate.
                 </PText>
               </div>
             </div>
@@ -107,15 +106,11 @@ export default function About() {
 
               <AboutInfoItem
                 title="School"
-                items={['Nasirabad Govt. High School, Chattogram']}
+                items={['The Gateway Academy']}
               />
               <AboutInfoItem
-                title="Collage"
-                items={['BAF Shaheen College Chattogram']}
-              />
-              <AboutInfoItem
-                title="Varsity"
-                items={['University Of Chitiagong']}
+                title="Knowledge"
+                items={['Completely self-taught']}
               />
             </div>
             <div className="about__info__item">
@@ -138,16 +133,16 @@ export default function About() {
               <h1 className="about__info__heading">Experiences</h1>
 
               <AboutInfoItem
-                title="2010-2012"
-                items={['junior developer at web Cifar']}
+                title="2015-2019"
+                items={['Freelance web developer']}
               />
               <AboutInfoItem
-                title="2012-2016"
-                items={['Front end developer at web Cifar ']}
+                title="2019-2021"
+                items={['Customer facing role as management']}
               />
               <AboutInfoItem
-                title="2016-"
-                items={['Freelance web Developer']}
+                title="2021-"
+                items={['Full time Digital Assistant']}
               />
             </div>
           </div>

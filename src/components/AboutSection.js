@@ -77,11 +77,11 @@ export default function AboutSection() {
         <div className="aboutSection__left">
           <SectionTitle
             subheading="Let me introduce myself"
-            heading="about me"
+            heading="I love being creative"
           />
-          <PText>This is a sample text to be replaced by george</PText>
+          <PText>My day job ranges from web development, photography, videography and graphic design. When im not working, i like to create music and on weekends, play some sports.</PText>
           <div className="aboutSection__buttons">
-            <Button btnLink="/projects" btnText="Works" />
+            <Button btnLink="/projects" btnText="My Work" />
             <Button btnLink="/about" btnText="Read More" outline />
           </div>
         </div>

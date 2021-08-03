@@ -27,25 +27,25 @@ export default function ServicesSection() {
   return (
     <ServicesItemStyles>
       <div className="container">
-        <SectionTitle heading="Services" subheading="what i will do for you" />
+        <SectionTitle heading="Services" subheading="What i can offer to you" />
 
         <div className="services__allItems">
           <ServicesSectionItem
-            icon={<MdCode />}
-            title="Web Design"
-            desc="What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?
+            icon={<MdBrush />}
+            title="Design"
+            desc="Creating experiences through digital art. I study the latest trends to ensure my clients are getting the best. Apps, websites, logos, printed media, advertising campaigns, social media posts, UI, UX, SAP systems and ecommerce stores.
 "
           />
           <ServicesSectionItem
             icon={<MdPhonelinkSetup />}
-            title="App Dev"
-            desc="What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?
+            title="Mobile Solutions"
+            desc="App development for iOS and Android devices. 
 "
           />
           <ServicesSectionItem
-            icon={<MdBrush />}
-            title="Web Dev"
-            desc="What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?
+            icon={<MdCode />}
+            title="Development"
+            desc="Full stack web development allows me to fine tune every part of your website to make sure it fits your brand perfectly. I have been studying this for over 10 years and i stay up to date with the latest technological advances.
 "
           />
         </div>
